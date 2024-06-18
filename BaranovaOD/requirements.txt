@@ -1,0 +1,6 @@
+Flask==3.0.3
+opencv-python==4.10.0.84
+Requests==2.32.3
+roboflow==1.1.27
+ultralytics==8.2.2
+websocket_client==1.8.0

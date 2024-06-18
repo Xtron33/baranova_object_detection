@@ -1,0 +1,7 @@
+names:
+  0: defect
+  1: planson
+path: ../datasets/BaranovaOD-3
+test: ../test/images
+train: ../train/images
+val: ../valid/images

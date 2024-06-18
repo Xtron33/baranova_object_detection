@@ -1,0 +1,13 @@
+names:
+- defect
+- planson
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: baranovaod
+  url: https://universe.roboflow.com/baranova/baranovaod/dataset/2
+  version: 2
+  workspace: baranova
+test: ../test/images
+train: BaranovaOD-2/train/images
+val: BaranovaOD-2/valid/images

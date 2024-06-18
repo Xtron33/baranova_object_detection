@@ -1,0 +1,22 @@
+services:
+  websocket_server:
+    container_name: web_socket_od
+    restart: always
+    build: ./BaranovaOD_Websocket/
+    ports:
+      - "8765:8765"
+    volumes:
+      - ./websocket:/app/
+    networks:
+      - server
+  frontend:
+    container_name: frontend
+    restart: always
+    build: ./BaranovaOD_Web/baranova_od_web
+    networks:
+      - server
+    ports:
+      - "80:3000"
+networks:
+  server:
+    driver: bridge
